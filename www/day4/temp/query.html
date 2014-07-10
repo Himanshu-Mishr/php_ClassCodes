@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Printing Table</title>
+</head>
+<body>
+<center>
+	<font>
+		<table>
+<?php
+$con=mysqli_connect('localhost', 'root', '', 'foodie');
+if(!$con) {
+	die('Could Not Connect!!!');
+}
+else {
+	$str='select * from menu';
+	$result=mysqli_query($con, $str);
+	while ($row=mysqli_fetch_array($result)) {
+		echo "'"<tr><td></td></tr>";
+	}
+}
+?>
+
+		</table>
+	</font>
+</center>
+</body>
+</html>

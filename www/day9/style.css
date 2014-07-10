@@ -1,0 +1,26 @@
+h1 {
+	color: blue;
+	font-size: 50px;
+	font-family: verdana; 
+	background-color:#99FFCC;
+}
+p {
+	color: green;
+}
+
+#para1{
+	text-align: center;
+	color: red;
+}
+
+body {
+	background-color:#0099FF;
+}
+.style1 {color: #006633}
+.style2 {
+	color: #FFFFFF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: large;
+}
+.style3 {font-size: medium}
+.style4 {color: #FFFFFF}
